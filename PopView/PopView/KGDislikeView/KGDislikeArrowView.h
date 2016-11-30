@@ -6,8 +6,8 @@
 //  Copyright © 2016年 快更. All rights reserved.
 //
 
-#define kArrowHeight    (7.0)
-#define kArrowWidth     (15.0)
+#define kArrowHeight    (8.0)
+#define kArrowWidth     (16.0)
 
 #define kScale   (0.7)
 

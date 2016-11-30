@@ -7,18 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21C50A1B9B5E51F595C8E8BF /* Pods_PopView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC1B4F3C358DCFA877BEED0 /* Pods_PopView.framework */; };
 		D26079031DDC8CBA006DC2AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D26079021DDC8CBA006DC2AE /* main.m */; };
 		D26079061DDC8CBA006DC2AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D26079051DDC8CBA006DC2AE /* AppDelegate.m */; };
 		D26079091DDC8CBA006DC2AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D26079081DDC8CBA006DC2AE /* ViewController.m */; };
 		D260790C1DDC8CBA006DC2AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D260790A1DDC8CBA006DC2AE /* Main.storyboard */; };
 		D260790E1DDC8CBA006DC2AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D260790D1DDC8CBA006DC2AE /* Assets.xcassets */; };
 		D26079111DDC8CBA006DC2AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D260790F1DDC8CBA006DC2AE /* LaunchScreen.storyboard */; };
-		D2FE6A121DDD4A93004F8707 /* KGDislikeArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FE6A0F1DDD4A93004F8707 /* KGDislikeArrowView.m */; };
-		D2FE6A131DDD4A93004F8707 /* KGDislikeView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FE6A111DDD4A93004F8707 /* KGDislikeView.m */; };
+		D26B815C1DEED426008A5799 /* KGDislikeArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = D26B81591DEED426008A5799 /* KGDislikeArrowView.m */; };
+		D26B815D1DEED426008A5799 /* KGDislikeView.m in Sources */ = {isa = PBXBuildFile; fileRef = D26B815B1DEED426008A5799 /* KGDislikeView.m */; };
+		D26B81601DEED462008A5799 /* DislikeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D26B815F1DEED462008A5799 /* DislikeModel.m */; };
 		D2FE6A191DDD4AF1004F8707 /* bayeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FE6A181DDD4AF1004F8707 /* bayeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F9AE6B3211CA1E633402E27 /* Pods-PopView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopView.release.xcconfig"; path = "Pods/Target Support Files/Pods-PopView/Pods-PopView.release.xcconfig"; sourceTree = "<group>"; };
+		4D0617006B7F7373FE29C22B /* Pods-PopView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopView/Pods-PopView.debug.xcconfig"; sourceTree = "<group>"; };
+		AAC1B4F3C358DCFA877BEED0 /* Pods_PopView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D26078FE1DDC8CBA006DC2AE /* PopView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D26079021DDC8CBA006DC2AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D26079041DDC8CBA006DC2AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,10 +34,12 @@
 		D260790D1DDC8CBA006DC2AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D26079101DDC8CBA006DC2AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D26079121DDC8CBA006DC2AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2FE6A0E1DDD4A93004F8707 /* KGDislikeArrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGDislikeArrowView.h; sourceTree = "<group>"; };
-		D2FE6A0F1DDD4A93004F8707 /* KGDislikeArrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGDislikeArrowView.m; sourceTree = "<group>"; };
-		D2FE6A101DDD4A93004F8707 /* KGDislikeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGDislikeView.h; sourceTree = "<group>"; };
-		D2FE6A111DDD4A93004F8707 /* KGDislikeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGDislikeView.m; sourceTree = "<group>"; };
+		D26B81581DEED426008A5799 /* KGDislikeArrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGDislikeArrowView.h; sourceTree = "<group>"; };
+		D26B81591DEED426008A5799 /* KGDislikeArrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGDislikeArrowView.m; sourceTree = "<group>"; };
+		D26B815A1DEED426008A5799 /* KGDislikeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGDislikeView.h; sourceTree = "<group>"; };
+		D26B815B1DEED426008A5799 /* KGDislikeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGDislikeView.m; sourceTree = "<group>"; };
+		D26B815E1DEED462008A5799 /* DislikeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DislikeModel.h; sourceTree = "<group>"; };
+		D26B815F1DEED462008A5799 /* DislikeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DislikeModel.m; sourceTree = "<group>"; };
 		D2FE6A171DDD4AF1004F8707 /* bayeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bayeViewController.h; sourceTree = "<group>"; };
 		D2FE6A181DDD4AF1004F8707 /* bayeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bayeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -42,17 +49,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21C50A1B9B5E51F595C8E8BF /* Pods_PopView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B12CA1477DF3EDACB48C66DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D0617006B7F7373FE29C22B /* Pods-PopView.debug.xcconfig */,
+				0F9AE6B3211CA1E633402E27 /* Pods-PopView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D26078F51DDC8CBA006DC2AE = {
 			isa = PBXGroup;
 			children = (
 				D26079001DDC8CBA006DC2AE /* PopView */,
 				D26078FF1DDC8CBA006DC2AE /* Products */,
+				B12CA1477DF3EDACB48C66DD /* Pods */,
+				FFEC0C7B52D9C61EA0FA5558 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,7 +86,7 @@
 		D26079001DDC8CBA006DC2AE /* PopView */ = {
 			isa = PBXGroup;
 			children = (
-				D2FE6A0D1DDD4A93004F8707 /* KGDislikeView */,
+				D26B81571DEED426008A5799 /* KGDislikeView */,
 				D26079041DDC8CBA006DC2AE /* AppDelegate.h */,
 				D26079051DDC8CBA006DC2AE /* AppDelegate.m */,
 				D26079071DDC8CBA006DC2AE /* ViewController.h */,
@@ -91,15 +110,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D2FE6A0D1DDD4A93004F8707 /* KGDislikeView */ = {
+		D26B81571DEED426008A5799 /* KGDislikeView */ = {
 			isa = PBXGroup;
 			children = (
-				D2FE6A0E1DDD4A93004F8707 /* KGDislikeArrowView.h */,
-				D2FE6A0F1DDD4A93004F8707 /* KGDislikeArrowView.m */,
-				D2FE6A101DDD4A93004F8707 /* KGDislikeView.h */,
-				D2FE6A111DDD4A93004F8707 /* KGDislikeView.m */,
+				D26B81581DEED426008A5799 /* KGDislikeArrowView.h */,
+				D26B81591DEED426008A5799 /* KGDislikeArrowView.m */,
+				D26B815A1DEED426008A5799 /* KGDislikeView.h */,
+				D26B815B1DEED426008A5799 /* KGDislikeView.m */,
+				D26B815E1DEED462008A5799 /* DislikeModel.h */,
+				D26B815F1DEED462008A5799 /* DislikeModel.m */,
 			);
 			path = KGDislikeView;
+			sourceTree = "<group>";
+		};
+		FFEC0C7B52D9C61EA0FA5558 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAC1B4F3C358DCFA877BEED0 /* Pods_PopView.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,9 +138,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D26079151DDC8CBA006DC2AE /* Build configuration list for PBXNativeTarget "PopView" */;
 			buildPhases = (
+				1F5D93AB19EEA225EAD2016D /* [CP] Check Pods Manifest.lock */,
 				D26078FA1DDC8CBA006DC2AE /* Sources */,
 				D26078FB1DDC8CBA006DC2AE /* Frameworks */,
 				D26078FC1DDC8CBA006DC2AE /* Resources */,
+				C32CD0B45E2B31097C4AFA8A /* [CP] Embed Pods Frameworks */,
+				1FE27CF42841C37434B4A25B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -169,17 +201,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F5D93AB19EEA225EAD2016D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1FE27CF42841C37434B4A25B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PopView/Pods-PopView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C32CD0B45E2B31097C4AFA8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PopView/Pods-PopView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D26078FA1DDC8CBA006DC2AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2FE6A121DDD4A93004F8707 /* KGDislikeArrowView.m in Sources */,
 				D26079091DDC8CBA006DC2AE /* ViewController.m in Sources */,
-				D2FE6A131DDD4A93004F8707 /* KGDislikeView.m in Sources */,
 				D26079061DDC8CBA006DC2AE /* AppDelegate.m in Sources */,
+				D26B815D1DEED426008A5799 /* KGDislikeView.m in Sources */,
 				D26079031DDC8CBA006DC2AE /* main.m in Sources */,
+				D26B815C1DEED426008A5799 /* KGDislikeArrowView.m in Sources */,
 				D2FE6A191DDD4AF1004F8707 /* bayeViewController.m in Sources */,
+				D26B81601DEED462008A5799 /* DislikeModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +378,7 @@
 		};
 		D26079161DDC8CBA006DC2AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D0617006B7F7373FE29C22B /* Pods-PopView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 264569WS5A;
@@ -309,6 +391,7 @@
 		};
 		D26079171DDC8CBA006DC2AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F9AE6B3211CA1E633402E27 /* Pods-PopView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 264569WS5A;

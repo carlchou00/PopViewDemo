@@ -8,6 +8,7 @@
 
 #import "bayeViewController.h"
 #import "KGDislikeView.h"
+#import "DislikeModel.h"
 
 @interface bayeViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -19,10 +20,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
-//    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(250, 70, 50, 30)];
-//    button.backgroundColor = [UIColor orangeColor];
-//    [button addTarget:self action:@selector(abc:) forControlEvents:UIControlEventTouchUpInside];
-//    [self.view addSubview:button];
     UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
     tableView.delegate = self;
     tableView.dataSource = self;
@@ -42,11 +39,9 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
-    [KGDislikeView showFromView:cell itemTitles:@[@"123", @"123", @"123", @"123", @"123", @"123", @"123"]];
-}
-
-- (void)abc:(UIButton *)button {
-    [KGDislikeView showFromView:button itemTitles:@[@"123", @"123", @"123", @"123", @"123", @"123", @"123"]];
+    [KGDislikeView showFromView:cell items:[DislikeModel readDislikeReasons] dislikeBlock:^(KGDislikeView *dislikeView, NSString *reasonString) {
+        
+    }];
 }
 
 - (void)didReceiveMemoryWarning {

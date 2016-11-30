@@ -40,14 +40,14 @@
     switch (_arrowDirection) {
         case KGDislikeArrowDirectionDown: {
             [aPath moveToPoint:CGPointMake(0, currentSize.height)];
-            [aPath addQuadCurveToPoint:CGPointMake(currentSize.width, 0) controlPoint:CGPointMake(currentSize.width * (1-kScale), currentSize.height * kScale)];
-            [aPath addQuadCurveToPoint:CGPointMake(currentSize.width, currentSize.height) controlPoint:CGPointMake(currentSize.width * (1-kScale), currentSize.height * kScale)];
+            [aPath addQuadCurveToPoint:CGPointMake(currentSize.width, 0) controlPoint:CGPointMake(currentSize.width * kScale, currentSize.height * kScale)];
+            [aPath addQuadCurveToPoint:CGPointMake(currentSize.width, currentSize.height) controlPoint:CGPointMake(currentSize.width * kScale, currentSize.height * kScale)];
         }
             break;
         case KGDislikeArrowDirectionUp: {
             [aPath moveToPoint:CGPointMake(0, 0)];
-            [aPath addQuadCurveToPoint:CGPointMake(currentSize.width, currentSize.height) controlPoint:CGPointMake(currentSize.width * kScale, currentSize.height * (1-kScale))];
-            [aPath addQuadCurveToPoint:CGPointMake(currentSize.width, 0) controlPoint:CGPointMake(currentSize.width * kScale, currentSize.height * (1-kScale))];
+            [aPath addQuadCurveToPoint:CGPointMake(currentSize.width, currentSize.height) controlPoint:CGPointMake(currentSize.width * kScale, currentSize.height * (1 - kScale))];
+            [aPath addQuadCurveToPoint:CGPointMake(currentSize.width, 0) controlPoint:CGPointMake(currentSize.width * kScale, currentSize.height * (1 - kScale))];
         }
             break;
             

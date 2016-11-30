@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DislikeModel.h"
+
+@class KGDislikeView;
+typedef void(^KGDislikeViewBlock)(KGDislikeView *dislikeView, NSString *reasonString);
 
 @interface KGDislikeView : UIView
 
-+ (void)showFromView:(UIView *)aView itemTitles:(NSArray *)itemTitles;
++ (instancetype)showFromView:(UIView *)aView items:(NSArray <DislikeModel *> *)items dislikeBlock:(KGDislikeViewBlock)dislikeBlock;
 
 @end
